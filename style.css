@@ -1,3 +1,7 @@
+.header{
+  text-align: center;
+  padding: 20px;
+}
 body {
   background-color: gray;
   color: white;
@@ -30,4 +34,55 @@ li a:hover {
 .active {
   background-color: #04AA6D;
   color: white;
+}
+.headshot{
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+.mid{
+  clear: both;
+  background-color: lightgrey;
+  color: black;
+  padding: 10px;
+  border: 10px darkred;
+  margin: 50px;
+}
+.midx{
+  background-clip: content-box;
+  background-color: lightgrey;
+  color: black;
+}
+.title{
+  text-align: center;
+}
+p {
+  padding: 10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+details {
+    border: 1px solid #aaa;
+    padding: 1px;
+}
+
+summary {
+    font-weight: bold;
+    margin: 1px;
+    padding: 1px;
+}
+
+details[open] {
+    padding: 1px;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 1px;
+}
+.navigation {
+  padding-bottom: 20px;
 }
